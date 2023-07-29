@@ -1,0 +1,8 @@
+version: "3.1"
+
+rules:
+
+- rule: Diga despedida sempre que o usuário disser despedida
+  steps:
+  - intent: despedida
+  - action: utter_despedida

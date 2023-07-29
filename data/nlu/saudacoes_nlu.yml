@@ -1,0 +1,92 @@
+version: "3.1"
+
+nlu:
+- intent: saudar
+  examples: |
+    - ei 
+    - olá 
+    - oi 
+    - olá 
+    - bom dia 
+    - boa noite 
+    - moin 
+    - ei aí 
+    - vamos lá 
+    - ei cara 
+    - bom dia 
+    - boa noite 
+    - boa tarde
+
+- intent: despedida
+  examples: |
+    - xau
+    - te vejo mais tarde
+    - boa noite
+    - tchau
+    - adeus
+    - tenha um bom dia
+    - Vejo você por aí
+    - Bye Bye
+    - até mais
+
+- intent: afirmativa
+  examples: |
+    - sim
+    - ok
+    - de fato
+    - claro
+    - Isso soa bem
+    - correto
+    - beleza
+
+- intent: negar
+  examples: |
+    - não
+    - n
+    - nunca
+    - Eu não acho
+    - não gosto disso
+    - sem chance
+    - na verdade
+    - no
+
+- intent: humor_otimo
+  examples: |
+    - perfeito
+    - ótimo
+    - incrível
+    - sentindo-se um rei
+    - maravilhoso
+    - estou me sentindo muito bem
+    - Estou estou ótimo
+    - Eu sou incrível
+    - eu vou salvar o mundo
+    - super empolgado
+    - extremamente bom
+    - tão perfeito
+    - tão bom
+    - tão perfeito
+
+- intent: humor_infeliz
+  examples: |
+    - meu dia foi horrível
+    - Estou triste
+    - não me sinto muito bem
+    - Estou desapontado
+    - super triste
+    - Eu estou tão triste
+    - triste
+    - muito triste
+    - infeliz
+    - não é bom
+    - não muito bom
+    - extremamente triste
+    - ruin
+    - mal
+
+- intent: desafio_bot
+  examples: |
+    - Você é um robô?
+    - Você é um humano?
+    - estou falando com um bot?
+    - estou falando com um humano?

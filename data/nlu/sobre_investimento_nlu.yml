@@ -1,0 +1,42 @@
+version: "3.1"
+
+nlu:
+  - intent: saber_diferenca_investimentos
+    examples: |
+      - Quais são as principais diferenças entre investir em ações e fundos de renda fixa?
+      - Qual a volatilidade média do mercado de ações em comparação com os títulos de renda fixa?
+      - Quais os principais fatores que influenciam o retorno de investimentos em renda variável e renda fixa?
+      - Quais os prazos de resgate para os diferentes tipos de investimentos disponíveis?
+      - Como funciona a tributação sobre os ganhos em cada tipo de investimento?
+
+  - intent: avaliar_risco_investimentos
+    examples: |
+      - Quais são as medidas que posso tomar para avaliar o risco de um determinado investimento?
+      - Qual é a diferença entre risco de mercado e risco de crédito em um investimento?
+      - Como a análise do perfil de investidor pode ajudar a tomar decisões mais acertadas em relação ao risco?
+      - Quais os principais indicadores utilizados para medir o risco de um fundo de investimento?
+      - Quais são as estratégias para reduzir o risco em uma carteira de investimentos diversificada?
+
+  - intent: entender_rendimento_investimentos
+    examples: |
+      - O que é taxa de juros e como ela influencia o rendimento dos investimentos?
+      - Como calcular o rendimento de um título de renda fixa antes do vencimento?
+      - Qual é o cálculo para verificar a rentabilidade de um fundo de investimento em renda variável?
+      - Como a inflação afeta o poder de compra dos rendimentos dos investimentos?
+      - Quais são os fatores que podem levar a uma queda no rendimento de um investimento?
+
+  - intent: aprender_sobre_acoes
+    examples: |
+      - O que são ações e como funciona o investimento no mercado de ações?
+      - Quais as principais bolsas de valores onde posso investir em ações?
+      - Como identificar empresas com potencial de valorização no mercado de ações?
+      - Quais os tipos de ordens de compra e venda de ações disponíveis?
+      - Como analisar o desempenho histórico de uma ação antes de investir?
+
+  - intent: descobrir_opcoes_investimento
+    examples: |
+      - Quais são as opções de investimento consideradas de baixo risco no mercado financeiro?
+      - Como funcionam os fundos de previdência privada e quais as vantagens de investir neles?
+      - Quais os diferentes tipos de fundos de investimento disponíveis e suas características distintas?
+      - Quais as alternativas de investimentos para pessoas que buscam maior liquidez em seus recursos?
+      - Como é possível investir em ativos no exterior e quais as implicações tributárias?

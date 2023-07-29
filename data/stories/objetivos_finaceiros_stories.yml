@@ -1,0 +1,40 @@
+version: "3.1"
+
+stories:
+  - story: Definir objetivos financeiros
+    steps:
+      - intent: definir_objetivos_financeiros
+      - action: utter_definir_objetivos_financeiros
+
+  - story: Identificar prioridades financeiras
+    steps:
+      - intent: identificar_prioridades_financeiras
+      - action: utter_identificar_prioridades_financeiras
+
+  - story: Ajustar objetivos de investimento
+    steps:
+      - intent: ajustar_objetivos_investimento
+      - action: utter_ajustar_objetivos_investimento
+
+  - story: Mensurar progresso dos objetivos financeiros
+    steps:
+      - intent: mensurar_progresso_objetivos
+      - action: utter_mensurar_progresso_objetivos
+
+  - story: Buscar ajuda profissional para definir objetivos financeiros
+    steps:
+      - intent: buscar_ajuda_profissional
+      - action: utter_buscar_ajuda_profissional
+
+  - story: Conversa de exemplo sobre objetivos financeiros
+    steps:
+      - intent: definir_objetivos_financeiros
+      - action: utter_definir_objetivos_financeiros
+      - intent: identificar_prioridades_financeiras
+      - action: utter_identificar_prioridades_financeiras
+      - intent: ajustar_objetivos_investimento
+      - action: utter_ajustar_objetivos_investimento
+      - intent: mensurar_progresso_objetivos
+      - action: utter_mensurar_progresso_objetivos
+      - intent: buscar_ajuda_profissional
+      - action: utter_buscar_ajuda_profissional

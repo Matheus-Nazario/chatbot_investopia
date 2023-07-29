@@ -1,0 +1,44 @@
+version: "3.1"
+
+stories:
+  - story: Compreender o perfil de investidor
+    steps:
+      - intent: compreender_perfil_investidor
+      - action: utter_compreender_perfil_investidor
+
+  - story: Determinar tolerância ao risco
+    steps:
+      - intent: determinar_tolerancia_risco
+      - action: utter_determinar_tolerancia_risco
+
+  - story: Alinhar investimentos ao perfil de investidor
+    steps:
+      - intent: alinhar_investimentos_perfil
+      - action: utter_alinhar_investimentos_perfil
+
+  - story: Revisar perfil de investimento
+    steps:
+      - intent: revisar_perfil_investimento
+      - action: utter_revisar_perfil_investimento
+
+  - story: Lidar com emoções nos investimentos
+    steps:
+      - intent: lidar_emocoes_investimentos
+      - action: utter_lidar_emocoes_investimentos
+
+  # Adicione mais histórias aqui, conforme necessário.
+
+  - story: Conversa de exemplo sobre perfil de investidor
+    steps:
+      - intent: compreender_perfil_investidor
+      - action: utter_compreender_perfil_investidor
+      - intent: determinar_tolerancia_risco
+      - action: utter_determinar_tolerancia_risco
+      - intent: alinhar_investimentos_perfil
+      - action: utter_alinhar_investimentos_perfil
+      - intent: revisar_perfil_investimento
+      - action: utter_revisar_perfil_investimento
+      - intent: lidar_emocoes_investimentos
+      - action: utter_lidar_emocoes_investimentos
+
+  # Mais histórias podem ser adicionadas para outras combinações de intenções e respostas.

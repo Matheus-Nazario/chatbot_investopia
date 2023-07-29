@@ -1,0 +1,42 @@
+version: "3.1"
+
+nlu:
+  - intent: entender_diversificacao
+    examples: |
+      - O que é diversificação de investimentos e por que é importante?
+      - Como a diversificação pode ajudar a reduzir o risco da minha carteira de investimentos?
+      - Quais os principais benefícios de investir em diferentes ativos e setores?
+      - Qual a importância de diversificar também em diferentes regiões geográficas?
+      - Como a diversificação pode mitigar as oscilações do mercado e proteger meus investimentos?
+
+  - intent: tipos_diversificacao
+    examples: |
+      - Quais são os diferentes tipos de diversificação que posso considerar em minha carteira de investimentos?
+      - Como diversificar em diferentes classes de ativos, como ações, títulos e commodities?
+      - Quais os benefícios de diversificar entre investimentos de renda fixa e variável?
+      - Como diversificar em diferentes setores da economia, como tecnologia, saúde e energia?
+      - É vantajoso diversificar em mercados internacionais e emergentes?
+
+  - intent: diversificacao_renda_fixa
+    examples: |
+      - Quais as estratégias de diversificação mais comuns para investimentos de renda fixa?
+      - Como diversificar em diferentes tipos de títulos, como Tesouro Direto, CDBs e debêntures?
+      - Quais são os riscos e benefícios de investir em diferentes prazos de vencimento em renda fixa?
+      - É possível diversificar em renda fixa sem abrir mão da segurança dos investimentos?
+      - Quais as melhores práticas para equilibrar a diversificação em renda fixa e renda variável na carteira?
+
+  - intent: diversificacao_renda_variavel
+    examples: |
+      - Quais as estratégias para diversificar investimentos em renda variável, como ações e fundos de investimento?
+      - Como diversificar em empresas de diferentes setores e tamanhos de mercado?
+      - Quais as melhores práticas para selecionar ações individuais para diversificar a carteira?
+      - Como investir em fundos de investimento diversificados, como ETFs e fundos de índice?
+      - Quais os riscos a serem considerados ao diversificar em renda variável?
+
+  - intent: monitorar_diversificacao
+    examples: |
+      - É importante monitorar a diversificação da minha carteira de investimentos? Por quê?
+      - Quais os sinais de que minha carteira pode estar desequilibrada em termos de diversificação?
+      - Como realizar o acompanhamento adequado dos ativos em minha carteira para garantir a diversificação?
+      - Quais ferramentas ou indicadores posso utilizar para monitorar a diversificação da carteira?
+      - Quais as melhores estratégias para rebalancear a carteira e manter a diversificação ao longo do tempo?

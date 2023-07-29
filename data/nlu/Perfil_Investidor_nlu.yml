@@ -1,0 +1,42 @@
+version: "3.1"
+
+nlu:
+  - intent: compreender_perfil_investidor
+    examples: |
+      - O que é o perfil de investidor e por que é importante conhecê-lo?
+      - Como descobrir meu perfil de investidor e minha tolerância ao risco?
+      - Quais são os diferentes tipos de perfis de investidores e suas características?
+      - É possível mudar o meu perfil de investidor ao longo do tempo?
+      - Como o perfil de investidor influencia as decisões de alocação de ativos na carteira?
+
+  - intent: determinar_tolerancia_risco
+    examples: |
+      - Qual a importância de determinar minha tolerância ao risco antes de investir?
+      - Quais fatores devo considerar para avaliar minha tolerância ao risco?
+      - Como a idade e os objetivos financeiros afetam a minha tolerância ao risco?
+      - Quais os principais instrumentos ou questionários para determinar minha aversão ao risco?
+      - Como equilibrar risco e retorno com base na minha tolerância ao risco?
+
+  - intent: alinhar_investimentos_perfil
+    examples: |
+      - Como escolher investimentos que estejam alinhados ao meu perfil de investidor?
+      - Quais são os ativos mais adequados para investidores conservadores?
+      - Que tipo de investimentos são indicados para investidores moderados?
+      - Quais as estratégias de investimento mais adequadas para investidores agressivos?
+      - Como diversificar a carteira de acordo com o meu perfil de investidor?
+
+  - intent: revisar_perfil_investimento
+    examples: |
+      - Com que frequência devo revisar meu perfil de investidor e minha estratégia de investimento?
+      - Quais eventos de vida podem influenciar mudanças no meu perfil de investidor?
+      - Como minha experiência com o mercado financeiro pode afetar meu perfil de investidor?
+      - O que fazer se eu sentir que meu perfil de investidor mudou e minha estratégia não está mais adequada?
+      - É recomendado buscar aconselhamento profissional para revisar meu perfil de investimento?
+
+  - intent: lidar_emocoes_investimentos
+    examples: |
+      - Como controlar as emoções ao investir e tomar decisões financeiras?
+      - Quais as armadilhas emocionais que os investidores podem enfrentar?
+      - Como o medo e a ganância podem afetar o desempenho dos investimentos?
+      - Quais estratégias posso adotar para evitar a tomada de decisões impulsivas?
+      - É possível automatizar decisões de investimento para reduzir a influência das emoções?

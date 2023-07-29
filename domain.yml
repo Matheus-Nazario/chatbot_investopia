@@ -1,0 +1,115 @@
+version: "3.1"
+
+intents:
+  - saudar
+  - despedida
+  - afirmativa
+  - negar
+  - humor_otimo
+  - humor_infeliz
+  - desafio_bot
+  - saber_diferenca_investimentos
+  - avaliar_risco_investimentos
+  - entender_rendimento_investimentos
+  - aprender_sobre_acoes
+  - descobrir_opcoes_investimento
+  - definir_objetivos_financeiros
+  - identificar_prioridades_financeiras
+  - ajustar_objetivos_investimento
+  - mensurar_progresso_objetivos
+  - buscar_ajuda_profissional
+  - compreender_perfil_investidor
+  - determinar_tolerancia_risco
+  - alinhar_investimentos_perfil
+  - revisar_perfil_investimento
+  - lidar_emocoes_investimentos
+  - entender_diversificacao
+  - tipos_diversificacao
+  - diversificacao_renda_fixa
+  - diversificacao_renda_variavel
+  - monitorar_diversificacao
+
+responses:
+  utter_saudar:
+  - text: "olá, me chamo Matheus, sou seu assistente virtual que vai te dar todo suporte de investimento, como vc está você?"
+
+  utter_alegrar:
+  - text: "Aqui está algo para animá-lo:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_isso_ajudou:
+  - text: "Isso te ajudou?"
+
+  utter_feliz:
+  - text: "Ótimo, continue!"
+
+  utter_despedida:
+  - text: "Xau, até logo!"
+
+  utter_saber_diferenca_investimentos:
+    - text: "As principais diferenças entre investir em ações e fundos de renda fixa são: as ações representam participação em uma empresa e têm maior volatilidade, enquanto os títulos de renda fixa representam empréstimos e são mais estáveis. A volatilidade média do mercado de ações é geralmente maior do que a dos títulos de renda fixa. Os fatores que influenciam o retorno de investimentos em renda variável incluem desempenho da empresa, cenário econômico e político, entre outros. Os prazos de resgate variam entre os diferentes tipos de investimentos, podendo ser curtos ou mais longos. A tributação sobre os ganhos em cada tipo de investimento também pode variar de acordo com as regras fiscais."
+
+  utter_avaliar_risco_investimentos:
+    - text: "Para avaliar o risco de um investimento, é importante considerar medidas como o Beta, que mede a sensibilidade do investimento às variações do mercado. O risco de mercado refere-se à volatilidade do investimento em relação ao mercado. Já o risco de crédito está relacionado à capacidade do emissor de honrar seus compromissos. A análise do perfil de investidor é fundamental para identificar o apetite ao risco e tomar decisões mais acertadas. Outras medidas, como o Value at Risk (VaR), também podem ser úteis para medir o risco de um fundo de investimento. A diversificação é uma estratégia eficaz para reduzir o risco em uma carteira de investimentos."
+
+  utter_entender_rendimento_investimentos:
+    - text: "A taxa de juros influencia o rendimento dos investimentos, principalmente os de renda fixa. Para calcular o rendimento de um título de renda fixa antes do vencimento, é necessário conhecer a taxa de juros, o prazo de vencimento e a modalidade do título. O rendimento de um fundo de investimento em renda variável é calculado com base no desempenho dos ativos que compõem a carteira do fundo. A inflação pode afetar o poder de compra dos rendimentos, pois reduz o valor real dos ganhos. Diversos fatores podem levar a uma queda no rendimento de um investimento, como mudanças no cenário econômico ou na empresa investida."
+
+  utter_aprender_sobre_acoes:
+    - text: "As ações são títulos que representam uma fração do capital social de uma empresa. O investimento no mercado de ações envolve comprar e vender ações visando lucros com a valorização dos ativos ou recebendo dividendos. As principais bolsas de valores onde se pode investir em ações são a B3 (Brasil), NYSE e NASDAQ (Estados Unidos). Identificar empresas com potencial de valorização envolve analisar os fundamentos da empresa, seu desempenho passado e perspectivas futuras. Existem diferentes tipos de ordens de compra e venda de ações, como ordens a mercado e ordens limitadas. A análise do desempenho histórico de uma ação pode fornecer informações sobre sua volatilidade e rentabilidade."
+
+  utter_descobrir_opcoes_investimento:
+    - text: "Opções de investimento consideradas de baixo risco incluem títulos públicos, CDBs"
+
+  utter_definir_objetivos_financeiros:
+    - text: "Definir objetivos financeiros claros é fundamental para qualquer investidor. Além de fornecer uma direção clara para seus investimentos, estabelecer metas permite que você determine a estratégia mais adequada para alcançá-las. Ao definir seus objetivos, leve em consideração o prazo, o montante necessário e sua tolerância ao risco. Objetivos de curto prazo podem ser direcionados a uma compra específica, enquanto objetivos de longo prazo podem envolver aposentadoria ou educação dos filhos. Essas metas influenciam suas escolhas de ativos na carteira de investimentos para equilibrar risco e retorno."
+
+  utter_identificar_prioridades_financeiras:
+    - text: "Para identificar suas prioridades financeiras, avalie suas necessidades, valores e aspirações. Liste seus objetivos e organize-os por ordem de importância. Considere também os prazos para atingir cada meta e sua capacidade financeira atual. Algumas prioridades podem envolver a criação de uma reserva de emergência, quitar dívidas, investir para aposentadoria ou comprar uma casa. Ao estabelecer suas prioridades, você poderá tomar decisões de investimento mais alinhadas com seus valores e objetivos."
+
+  utter_ajustar_objetivos_investimento:
+    - text: "É normal ajustar seus objetivos financeiros ao longo do tempo, pois circunstâncias e prioridades podem mudar. Sempre que ocorrerem mudanças significativas em sua vida financeira, como mudança de emprego, casamento ou nascimento de um filho, reavalie suas metas de investimento. Se necessário, adapte sua estratégia de investimento para refletir as novas metas e a situação financeira atual. Lembre-se de considerar eventuais impactos fiscais ao realizar ajustes em seus investimentos."
+
+  utter_mensurar_progresso_objetivos:
+    - text: "Mensurar o progresso em relação aos seus objetivos financeiros é crucial para acompanhar o desempenho de seus investimentos. Defina métricas ou indicadores específicos para cada objetivo e acompanhe regularmente seus investimentos em relação a essas metas. Ferramentas financeiras e aplicativos podem ajudá-lo a rastrear o progresso e fornecer análises sobre seu desempenho ao longo do tempo. Revisar e atualizar periodicamente o progresso é importante para garantir que você permaneça no caminho certo para atingir suas metas."
+
+  utter_buscar_ajuda_profissional:
+    - text: "Buscar ajuda profissional pode ser uma decisão inteligente para otimizar suas estratégias de investimento. Um consultor financeiro qualificado pode ajudá-lo a definir metas realistas, considerando sua situação financeira e tolerância ao risco. Além disso, um profissional pode auxiliar na escolha dos melhores investimentos alinhados aos seus objetivos. Para encontrar um consultor confiável, pesquise suas credenciais, experiência e referências. Lembre-se de discutir abertamente suas metas financeiras e expectativas para garantir uma parceria bem-sucedida."
+
+  utter_compreender_perfil_investidor:
+    - text:   "O perfil de investidor é uma classificação que ajuda a entender a relação de cada pessoa com o risco e a volatilidade dos investimentos. É importante conhecer o perfil para tomar decisões de investimento mais alinhadas ao seu nível de tolerância ao risco e à capacidade financeira. Para descobrir seu perfil de investidor e tolerância ao risco, é comum utilizar questionários e ferramentas disponibilizadas por instituições financeiras. Existem diferentes tipos de perfis de investidores, como conservador, moderado e agressivo, cada um com suas características e preferências em relação aos investimentos. Seu perfil de investidor também influencia a alocação de ativos na carteira, buscando equilibrar risco e retorno de acordo com suas preferências e objetivos financeiros."
+
+  utter_determinar_tolerancia_risco:
+    - text: "Determinar sua tolerância ao risco é essencial para construir uma carteira de investimentos alinhada às suas preferências e objetivos. Para avaliar sua tolerância ao risco, leve em conta fatores como idade, horizonte de investimento, situação financeira, conhecimento do mercado e experiência anterior com investimentos. Questionários de perfil de investidor oferecidos por corretoras e consultorias podem ser úteis para ajudar a identificar seu nível de aversão ao risco. Ao conhecer sua tolerância ao risco, será possível escolher investimentos que se adequem ao seu perfil e objetivos de longo prazo."
+
+  utter_alinhar_investimentos_perfil:
+    - text: "Escolher investimentos alinhados ao seu perfil de investidor é crucial para obter resultados satisfatórios em sua carteira. Investidores conservadores tendem a preferir ativos mais estáveis, como títulos de renda fixa e fundos de investimento de baixo risco. Para investidores moderados, uma combinação de renda fixa e variável pode ser adequada, enquanto investidores agressivos costumam buscar maior exposição à renda variável, como ações e fundos de investimento de maior risco. Diversificar a carteira com diferentes ativos pode ajudar a equilibrar os riscos e buscar retornos consistentes ao longo do tempo."
+
+  utter_revisar_perfil_investimento:
+    - text: "É recomendado revisar seu perfil de investidor e sua estratégia de investimento periodicamente ou sempre que houver mudanças significativas em sua vida financeira. Eventos como casamento, nascimento de filhos, mudança de emprego ou aposentadoria podem afetar seu perfil de investidor e suas metas financeiras. Se você sentir que seu perfil de investidor mudou, ou que sua estratégia atual não está mais adequada aos seus objetivos, considere ajustar sua alocação de ativos e procurar aconselhamento profissional. Consultar um profissional financeiro pode ajudar a tomar decisões mais informadas e alinhadas às suas necessidades."
+
+  utter_lidar_emocoes_investimentos:
+    - text: "Lidar com as emoções ao investir é fundamental para evitar decisões impulsivas que podem prejudicar seus resultados. Medo e ganância são emoções comuns que podem afetar a tomada de decisões financeiras. Para controlar as emoções, estabeleça uma estratégia de investimento clara e adote uma abordagem de longo prazo. Evite tomar decisões baseadas em movimentos de curto prazo do mercado. Automatizar decisões de investimento, por meio de planos de aporte programado ou rebalanceamento automático da carteira, pode ajudar a reduzir a influência das emoções em suas decisões financeiras."
+
+  utter_entender_diversificacao:
+    - text: "A diversificação de investimentos é uma estratégia fundamental para reduzir o risco da carteira. Consiste em distribuir os recursos em diferentes ativos, setores e regiões geográficas. Ao diversificar, você evita concentrar seus investimentos em apenas um ativo ou segmento, o que ajuda a mitigar as oscilações do mercado. A diversificação também busca proteger seus investimentos, pois o desempenho negativo de um ativo pode ser compensado pelo desempenho positivo de outros. Dessa forma, sua carteira tem a chance de obter um equilíbrio entre risco e retorno mais adequado aos seus objetivos financeiros."
+
+  utter_tipos_diversificacao:
+    - text: "Existem diferentes tipos de diversificação que você pode considerar em sua carteira de investimentos. A diversificação entre diferentes classes de ativos, como ações, títulos e commodities, é uma das abordagens. Investir em renda fixa e variável também é uma forma de diversificação. Além disso, você pode diversificar em diversos setores da economia, como tecnologia, saúde, energia e outros. Considerar investimentos em mercados internacionais e emergentes também é uma opção para ampliar a diversificação. O objetivo é distribuir seus recursos de forma a minimizar os riscos específicos de cada ativo e aumentar a resiliência da carteira."
+
+  utter_diversificacao_renda_fixa:
+    - text: "Para diversificar investimentos de renda fixa, você pode considerar diferentes estratégias. Investir em títulos públicos do Tesouro Direto e em títulos privados, como CDBs e debêntures, pode proporcionar uma diversificação de emissores. Além disso, você pode diversificar em diferentes prazos de vencimento, pois títulos com vencimentos mais curtos tendem a ter menor volatilidade. A diversificação em renda fixa pode ser uma opção para investidores mais conservadores que buscam preservar o capital e obter rendimentos estáveis."
+
+  utter_diversificacao_renda_variavel:
+    - text: "Diversificar investimentos em renda variável, como ações e fundos de investimento, é essencial para aproveitar as oportunidades de crescimento e diluir os riscos associados a ativos individuais. Você pode diversificar em empresas de diferentes setores e tamanhos de mercado para ampliar a abrangência da carteira. Outra opção é investir em fundos de investimento diversificados, como ETFs e fundos de índice, que replicam índices de mercado. Esses fundos permitem uma exposição mais ampla a um conjunto diversificado de ativos em uma única aplicação."
+
+  utter_monitorar_diversificacao:
+    - text: "É importante monitorar a diversificação da sua carteira de investimentos regularmente. O desempenho dos ativos pode variar ao longo do tempo, levando a desequilíbrios na alocação de recursos. Ao acompanhar seus investimentos, você pode identificar quando a diversificação está fora do alinhamento desejado e tomar ações corretivas. Sinais de desequilíbrio incluem uma concentração excessiva em um único ativo ou setor. Use ferramentas e indicadores financeiros para monitorar a diversificação da carteira e, se necessário, realize o rebalanceamento para manter a estratégia adequada ao seu perfil de investidor e objetivos financeiros."
+
+
+actions:
+  - action_session_start
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

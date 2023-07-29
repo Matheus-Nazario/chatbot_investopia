@@ -1,0 +1,27 @@
+version: "3.1"
+
+stories:
+  - story: Entender a importância da diversificação de investimentos
+    steps:
+      - intent: entender_diversificacao
+      - action: utter_entender_diversificacao
+
+  - story: Conhecer os tipos de diversificação para carteira de investimentos
+    steps:
+      - intent: tipos_diversificacao
+      - action: utter_tipos_diversificacao
+
+  - story: Diversificação em investimentos de renda fixa
+    steps:
+      - intent: diversificacao_renda_fixa
+      - action: utter_diversificacao_renda_fixa
+
+  - story: Diversificação em investimentos de renda variável
+    steps:
+      - intent: diversificacao_renda_variavel
+      - action: utter_diversificacao_renda_variavel
+
+  - story: Monitorar a diversificação da carteira de investimentos
+    steps:
+      - intent: monitorar_diversificacao
+      - action: utter_monitorar_diversificacao

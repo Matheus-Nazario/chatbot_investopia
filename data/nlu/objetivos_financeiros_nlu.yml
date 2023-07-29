@@ -1,0 +1,42 @@
+version: "3.1"
+
+nlu:
+  - intent: definir_objetivos_financeiros
+    examples: |
+      - Quais são os benefícios de definir objetivos financeiros claros antes de investir?
+      - Como determinar metas financeiras realistas para minha situação?
+      - Qual a importância de estabelecer um prazo para alcançar meus objetivos de investimento?
+      - Quais os diferentes tipos de objetivos financeiros que posso definir (curto prazo, médio prazo, longo prazo)?
+      - Como meus objetivos financeiros influenciam a escolha dos ativos em minha carteira de investimentos?
+
+  - intent: identificar_prioridades_financeiras
+    examples: |
+      - Como identificar minhas prioridades financeiras e organizá-las por ordem de importância?
+      - Quais fatores devo levar em conta ao decidir quais objetivos financeiros priorizar?
+      - É possível equilibrar objetivos de curto prazo e de longo prazo em minha estratégia de investimento?
+      - Como lidar com prioridades financeiras conflitantes ao planejar meus investimentos?
+      - Quais ferramentas ou métodos posso usar para acompanhar o progresso em relação às minhas prioridades financeiras?
+
+  - intent: ajustar_objetivos_investimento
+    examples: |
+      - É possível ajustar meus objetivos financeiros após iniciar meus investimentos?
+      - Como reavaliar e adaptar meus objetivos de investimento com base nas mudanças na minha situação financeira?
+      - Quais são as melhores práticas para fazer ajustes em minha estratégia de investimento ao longo do tempo?
+      - Como lidar com situações inesperadas que podem afetar meus objetivos financeiros originais?
+      - Quais são os possíveis impactos fiscais ao realizar ajustes em meus investimentos para atender a novos objetivos?
+
+  - intent: mensurar_progresso_objetivos
+    examples: |
+      - Como acompanhar o progresso em relação aos meus objetivos financeiros?
+      - Quais métricas ou indicadores posso usar para mensurar o sucesso dos meus investimentos em relação aos objetivos estabelecidos?
+      - É importante revisar e atualizar periodicamente o progresso dos meus objetivos financeiros? Por quê?
+      - Quais ferramentas ou recursos podem ajudar a rastrear e analisar o desempenho dos meus investimentos em relação aos objetivos traçados?
+      - Como ajustar minha estratégia de investimento com base nas análises de progresso dos objetivos?
+
+  - intent: buscar_ajuda_profissional
+    examples: |
+      - Quando devo considerar buscar ajuda profissional para definir meus objetivos financeiros e estratégia de investimento?
+      - Quais os benefícios de consultar um profissional financeiro na definição dos meus objetivos e na escolha dos investimentos adequados?
+      - Quais são as principais questões que devo discutir com um consultor financeiro ao traçar meus objetivos?
+      - Como identificar um consultor financeiro qualificado e confiável para me auxiliar em minhas decisões financeiras?
+      - Existem ferramentas digitais ou plataformas que posso usar para receber orientações financeiras personalizadas?

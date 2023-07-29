@@ -1,0 +1,59 @@
+# The config recipe.
+# https://rasa.com/docs/rasa/model-configuration/
+recipe: default.v1
+
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: pt
+
+pipeline:
+- name: "SpacyNLP"
+  # language model to load
+  model: "pt_core_news_sm"
+  case_sensitive: false
+- name: SpacyTokenizer
+  intent_tokenization_flag: true
+- name: RegexFeaturizer
+- name: EntitySynonymMapper
+- name: CountVectorsFeaturizer
+  strip_accents: unicode
+- name: CountVectorsFeaturizer
+  strip_accents: unicode
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: DIETClassifier
+  random_seed: 42
+  epochs: 150
+  entity_recognition: false
+  number_of_transformer_layers: 0
+  constrain_similarities: true
+  hidden_layers_sizes:
+    text:
+    - 128
+    label: []
+  dense_dimension:
+    text: 256
+  regularization_constant: 0.001
+  scale_loss: false
+  connection_density: 0.0
+  use_sparse_input_dropout: false
+- name: FallbackClassifier
+  threshold: 0.6
+  ambiguity_threshold: 0.1
+- name: ResponseSelector
+  epochs: 1
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+- name: MemoizationPolicy
+  max_history: 1
+- name: TEDPolicy
+  max_history: 1
+  random_seed: 42
+  epochs: 200
+  constrain_similarities: true
+- name: RulePolicy
+  core_fallback_threshold: 0.6
+assistant_id: 20230729-092422-blocky-bumper

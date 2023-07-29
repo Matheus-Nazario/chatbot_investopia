@@ -1,0 +1,27 @@
+version: "3.1"
+
+stories:
+  - story: Saber a diferença entre investir em ações e fundos de renda fixa
+    steps:
+      - intent: saber_diferenca_investimentos
+      - action: utter_saber_diferenca_investimentos
+
+  - story: Avaliar o risco de um determinado investimento
+    steps:
+      - intent: avaliar_risco_investimentos
+      - action: utter_avaliar_risco_investimentos
+
+  - story: Entender como calcular o rendimento de um título de renda fixa
+    steps:
+      - intent: entender_rendimento_investimentos
+      - action: utter_entender_rendimento_investimentos
+
+  - story: Aprender sobre o investimento no mercado de ações
+    steps:
+      - intent: aprender_sobre_acoes
+      - action: utter_aprender_sobre_acoes
+
+  - story: Descobrir opções de investimento de baixo risco
+    steps:
+      - intent: descobrir_opcoes_investimento
+      - action: utter_descobrir_opcoes_investimento

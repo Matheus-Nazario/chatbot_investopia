@@ -1,0 +1,35 @@
+version: "3.1"
+
+stories:
+
+- story: feliz path
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - intent: humor_otimo
+  - action: utter_feliz
+
+- story: sad path 1
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - intent: humor_infeliz
+  - action: utter_alegrar
+  - action: utter_isso_ajudou
+  - intent: afirmativa
+  - action: utter_feliz
+
+- story: sad path 2
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - intent: humor_infeliz
+  - action: utter_alegrar
+  - action: utter_isso_ajudou
+  - intent: negar
+  - action: utter_despedida
+
+- story: path 4
+  steps:
+  - intent: despedida
+  - action: utter_despedida
